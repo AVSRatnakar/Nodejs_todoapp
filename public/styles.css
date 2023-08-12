@@ -1,0 +1,84 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+body {
+    background-image: url('./bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: whitesmoke;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.title {
+    font-size: 60px;
+}
+
+.input{
+    width:300px;
+    height : 50px;
+    background-color: black;
+    color : rgb(227,27,37);
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.input:focus{
+    color: rgb(227,27,37);
+}
+.input::placeholder{
+    color : rgb(227,27,37);
+}
+
+.btn{
+    margin-left: 30px;
+    width: 150px;
+    height: 50px;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(227,27,37);
+    color: black;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: rgb(227,27,37);
+}
+
+.btn1{
+    margin-top: 15px;
+    width: 100px;
+    height: 35px;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(227,27,37);
+    color: black;
+}
+.btn1:hover{
+    cursor: pointer;
+    background-color: black;
+    color: rgb(227,27,37);
+}
+
+
+.container {
+    display: block;
+    width: 650px;
+    margin: 0 auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+    font-size: 25px;
+}
+
+input[type=checkbox]{
+    outline: none;
+    background-color: rgb(227,27,37);
+}
